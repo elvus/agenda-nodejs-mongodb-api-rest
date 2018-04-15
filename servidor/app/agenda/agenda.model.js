@@ -12,10 +12,10 @@ const AgendaSchema = new Schema({
 		unique: true
 	},
 	telefono: {
-		type: String
+		type: Number
 	},
 	celular: {
-		type: Boolean,
+		type: Number,
 		default: false
 	},
 	fechaCreacion: {
